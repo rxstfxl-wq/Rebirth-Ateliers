@@ -56,13 +56,12 @@ export const ProductDrawer: React.FC<ProductDrawerProps> = ({ product, onClose }
 
           {/* Product Body */}
           <div className="p-6 sm:p-8 space-y-6 flex-1">
-            {/* Visual presentation */}
-            <div className="relative aspect-[4/3] bg-neutral-200 overflow-hidden border border-[#1A1A1A]/15 group">
+            <div className="relative aspect-[4/3] bg-neutral-100 overflow-hidden border border-[#1A1A1A]/15 group flex items-center justify-center p-3">
               <img
                 src={product.image}
                 alt={product.name}
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover object-center grayscale contrast-125 transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-contain object-center transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute top-3 left-3 bg-[#1A1A1A] text-white text-[10px] font-bebas tracking-widest px-2.5 py-1">
                 {product.category.toUpperCase()}

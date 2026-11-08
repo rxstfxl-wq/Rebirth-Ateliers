@@ -247,12 +247,12 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onOpenProduct }) => {
                 onClick={() => onOpenProduct(product)}
                 className="group bg-neutral-900/80 border border-white/10 hover:border-[#E1E724] p-4 flex flex-col justify-between cursor-pointer transition-all"
               >
-                <div className="aspect-[3/4] bg-neutral-800 overflow-hidden mb-3 border border-white/5 relative">
+                <div className="aspect-[3/4] bg-neutral-900 overflow-hidden mb-3 border border-white/5 relative flex items-center justify-center p-2">
                   <img
                     src={product.image}
                     alt={product.name}
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                   <span className="absolute bottom-2 right-2 text-[10px] font-mono bg-black/80 px-1.5 text-[#E1E724]">
                     {product.sizes.join('/')}

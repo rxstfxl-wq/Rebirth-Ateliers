@@ -172,12 +172,12 @@ export const Store: React.FC<StoreProps> = ({ onOpenProduct }) => {
                   className="group flex flex-col justify-between cursor-pointer space-y-4"
                 >
                   {/* Clean Product Visual Container */}
-                  <div className="relative aspect-[4/5] bg-neutral-200/60 overflow-hidden border border-[#1A1A1A]/5 group-hover:border-[#1A1A1A]/20 transition-all">
+                  <div className="relative aspect-[4/5] bg-neutral-100 overflow-hidden border border-[#1A1A1A]/5 group-hover:border-[#1A1A1A]/20 transition-all flex items-center justify-center p-3">
                     <img
                       src={product.image}
                       alt={product.name}
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover object-center grayscale contrast-125 group-hover:scale-103 transition-transform duration-700"
+                      className="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute top-3 left-3 text-[10px] font-mono text-neutral-500 uppercase bg-white/70 px-1.5 py-0.5">
                       {product.sku}

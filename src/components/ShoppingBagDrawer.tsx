@@ -119,7 +119,7 @@ export const ShoppingBagDrawer: React.FC = () => {
                       src={item.product.image}
                       alt={item.product.name}
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover object-center grayscale contrast-125 group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-300 p-1"
                     />
                     <span className="absolute bottom-1 right-1 text-[9px] font-mono bg-black/80 px-1 text-[#E1E724]">
                       {item.size}

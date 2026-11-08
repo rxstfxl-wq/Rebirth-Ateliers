@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
       'Do not bleach or tumble dry',
       'Cool iron inside out if needed'
     ],
-    image: '/assets/aistudio/a_large_detailed_design_presentation_moodboard_and_064e86a5.png',
+    image: '/Shop content/rebirth2026/Rebirth 02 - Hood.jpg',
   },
   {
     id: 'marble-sweatpants-01',
@@ -90,7 +90,7 @@ export const PRODUCTS: Product[] = [
       'Dry flat in shade',
       'Do not dry clean'
     ],
-    image: '/assets/aistudio/a_large_detailed_design_presentation_moodboard_and_064e86a5.png',
+    image: '/Shop content/rebirth2026/Rebirth 02 - Joggers.jpg',
   },
   {
     id: 'rebirth-hoodie-black',
@@ -118,7 +118,7 @@ export const PRODUCTS: Product[] = [
       'Do not iron directly over embroidery',
       'Lay flat to dry'
     ],
-    image: '/assets/aistudio/a_large_detailed_design_presentation_moodboard_and_064e86a5.png',
+    image: '/Shop content/rebirth2025/Rebirth 01 - Hood.jpg',
   },
   {
     id: 'ateliers-sweatpants-black',
@@ -145,7 +145,7 @@ export const PRODUCTS: Product[] = [
       'Wash cold with dark garments',
       'Do not tumble dry'
     ],
-    image: '/assets/aistudio/a_large_detailed_design_presentation_moodboard_and_064e86a5.png',
+    image: '/Shop content/rebirth2025/Rebirth 01 - Sweats Joggers.jpg',
   },
   {
     id: 'acid-emblem-tee',
@@ -197,7 +197,7 @@ export const PRODUCTS: Product[] = [
       'Hand wash or machine wash gentle',
       'Dry flat'
     ],
-    image: '/assets/aistudio/a_large_detailed_design_presentation_moodboard_and_064e86a5.png',
+    image: '/Shop content/rebirth2025/Rebirth 01 - Shirt.jpg',
   },
   {
     id: 'metamorphosis-beanie',
