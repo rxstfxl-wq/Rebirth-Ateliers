@@ -21,12 +21,12 @@ export const Store: React.FC<StoreProps> = ({ onOpenProduct }) => {
 
   // Default to 'grid' to match Panel 02 of the wireframe snippet
   const [viewMode, setViewMode] = useState<'grid' | 'spreadsheet'>('grid');
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState<'newest' | 'price-asc' | 'price-desc' | 'name'>('newest');
   const [addedItemSku, setAddedItemSku] = useState<string | null>(null);
 
-  const categories = ['ALL', 'HOODIES', 'SWEATS', 'PANTS', 'ACCESSORIES'];
+  const categories = ['ALL', 'HOODIES', 'SWEATS', 'PANTS', 'SHIRTS', 'ACCESSORIES'];
 
   const filteredProducts = useMemo(() => {
     let list = [...PRODUCTS];
@@ -36,6 +36,7 @@ export const Store: React.FC<StoreProps> = ({ onOpenProduct }) => {
         HOODIES: 'Hoodie',
         SWEATS: 'Pants',
         PANTS: 'Pants',
+        SHIRTS: 'Tee',
         ACCESSORIES: 'Accessories'
       };
       const mapped = catMap[selectedCategory] || selectedCategory;
